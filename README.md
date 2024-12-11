@@ -7,9 +7,13 @@ profesionales interesados en conceptos y prácticas de programación orientada a
 Información de la asignatura
 
 Institución: Universidad Estatal Amazónica (UEA)
+
 Carrera: Ingeniería en Tecnologías de la Información y Comunicación
+
 Asignatura: Programación Orientada a Objetos (UEA-L-UFB-030)
+
 Docente: Ing. Walter Núñez Zamora, Mgs.
+
 Alumno : Luis Samaniego
 
 Contenido del repositorio
