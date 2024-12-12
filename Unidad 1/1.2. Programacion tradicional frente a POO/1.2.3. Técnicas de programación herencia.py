@@ -27,7 +27,7 @@ mi_coche.abrir_ventanas()
 mi_moto.arrancar()
 mi_moto.hacer_wheelie()
 
-#Explicacion del codigo
+# EXPLICACION DEL CODIGO
 # Clase base automóvil: Define los atributos y métodos comunes a todos los vehículos (marca, modelo, arrancar).
 # Clases hijas Coche y Moto: Heredan de automóvil y añaden sus propias características y métodos específicos.
 # Método super().__init__(): Llama al constructor de la clase padre para inicializar los atributos heredados.

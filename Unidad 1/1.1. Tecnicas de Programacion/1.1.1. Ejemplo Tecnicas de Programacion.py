@@ -1,14 +1,13 @@
 import random
 
 # Clase para los guerreros Saiyajin
-# Cada guerrero tiene atributos: nombre, ataque, defensa y vida.
+
 class GuerreroSaiyajin:
     def __init__(self, nombre, ataque, defensa, vida):
         self.nombre = nombre
         self.ataque = ataque
         self.defensa = defensa
         self.vida = vida
-# Metodo: atacar: Reduce la vida del oponente en función del ataque y defensa, atacar: Reduce la vida del oponente en función del ataque y defensa
 
     def atacar(self, otro):
         # Cálculo del daño: ataque - defensa del oponente
@@ -19,7 +18,6 @@ class GuerreroSaiyajin:
     def mostrar_estado(self):
         print(f"{self.nombre} - Vida: {self.vida}, Ataque: {self.ataque}, Defensa: {self.defensa}")
 
-# Clase para el combate: Son dos guerreros y maneja el flujo del combate, Alterna turnos hasta que la vida de uno llegue a 0.
 
 class CombateSaiyajin:
     def __init__(self, saiyajin1, saiyajin2):
@@ -51,5 +49,10 @@ vegeta = GuerreroSaiyajin("Vegeta", ataque=23, defensa=18, vida=90)
 # Crear y comenzar el combate
 combate = CombateSaiyajin(goku, vegeta)
 combate.iniciar()
-
+# EXPLICACION DEL CODIGO
+# Cada guerrero tiene atributos: nombre, ataque, defensa y vida.
+# Metodo: atacar: Reduce la vida del oponente en función del ataque y defensa, atacar: Reduce la vida del oponente
+# en función del ataque y defensa
+# Clase para el combate: Son dos guerreros y maneja el flujo del combate, Alterna turnos hasta que la vida
+# de uno llegue a 0.
 # Se usa una ligera variación aleatoria en el daño (random.randint(-5, 5)) para hacer la pelea más impredecible.

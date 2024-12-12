@@ -23,7 +23,7 @@ mi_coche = Coche("Peugot 206", "Corolla", "Rojo")
 print(mi_coche.get_marca())  # Imprime: Peugot 20
 mi_coche.acelerar(100)
 mi_coche.frenar(65)
-# Explicacion del codigo
+# EXPLICACION DEL CODIGO
 # Atributos privados: Las propiedades que se encuentran precedidas por dos guiones bajos (__) se consideran privadas y
 # no pueden ser accesibles directamente desde el exterior de la clase. Esto resguarda los datos internos de la clase y
 # previene cambios indeseables.

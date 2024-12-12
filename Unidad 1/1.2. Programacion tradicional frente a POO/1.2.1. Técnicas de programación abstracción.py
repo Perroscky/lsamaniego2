@@ -24,7 +24,7 @@ perro = Perro("Buddy", 5)
 # Llamar a los métodos
 gato.hacer_sonido()
 perro.hacer_sonido()
-# Explicacion del codigo
+# EXPLICACION DEL CODIGO
 # ABC y abstractmethod: Estas herramientas de la librería abc (Abstract Base Classes) nos permiten definir clases
 # y métodos abstractos.
 # Clase Animal: Es la clase base que define los atributos y el método hacer_sonido que todas las clases hijas
