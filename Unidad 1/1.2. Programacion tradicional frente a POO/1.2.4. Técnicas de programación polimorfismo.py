@@ -19,7 +19,7 @@ class Triangulo(Figura):
         return math.pi * self.radio**2
 
     # EXPLICACION DEL CODIGO
-    # El Rectangulo: Hereda de Figura y agrega atributos específicos para un rectángulo (base y altura). Redefine
+    # El Cuadrado: Hereda de Figura y agrega atributos específicos para un rectángulo (base y altura). Redefine
     # el método área () para calcular el área de un rectángulo.
-    # El Circulo: También hereda de Figura y agrega el atributo radio. Redefine area() para calcular el área de un
+    # El Triangulo: También hereda de Figura y agrega el atributo radio. Redefine area() para calcular el área de un
     # círculo, utilizando la constante pi del módulo math.
