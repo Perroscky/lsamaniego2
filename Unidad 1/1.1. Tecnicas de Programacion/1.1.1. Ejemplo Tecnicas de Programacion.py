@@ -53,4 +53,3 @@ combate = CombateSaiyajin(goku, vegeta)
 combate.iniciar()
 
 # Se usa una ligera variación aleatoria en el daño (random.randint(-5, 5)) para hacer la pelea más impredecible.
-# Los guerreros atacan alternadamente hasta que uno de ellos gane.
