@@ -30,4 +30,4 @@ for dia in range(1, 8):
 
 # Calcular y mostrar el promedio
 promedio = semana.calcular_promedio()
-print(f"El promedio de temperatura semanal es: {promedio:.2f} °C")35
+print(f"El promedio de temperatura semanal es: {promedio:.2f} °C")
