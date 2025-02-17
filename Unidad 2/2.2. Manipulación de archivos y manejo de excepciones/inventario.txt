@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "ps5",
+        "cantidad": 10,
+        "precio": 500.0
+    },
+    {
+        "id": 2,
+        "nombre": "CONTROL PS5",
+        "cantidad": 20,
+        "precio": 50.0
+    },
+    {
+        "id": 3,
+        "nombre": "CABLE HDMI",
+        "cantidad": 50,
+        "precio": 5.0
+    },
+    {
+        "id": 4,
+        "nombre": "CABLE USB TIPO C",
+        "cantidad": 10,
+        "precio": 10.0
+    }
+]
