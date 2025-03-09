@@ -1,5 +1,5 @@
-#SISTEMA DE GESTION DE BIBLIOTECA
 import pickle
+
 
 # Definimos la clase Libro con atributos inmutables usando tuplas
 class Libro:
@@ -11,6 +11,7 @@ class Libro:
     def __repr__(self):
         titulo, autor = self.titulo_autor  # Desempaquetamos la tupla
         return f"'{titulo}' de {autor} (ISBN: {self.isbn}, Categoría: {self.categoria})"
+
 
 # Definimos la clase Usuario con un ID único para cada usuario
 class Usuario:
@@ -257,4 +258,3 @@ def ejecutar_operaciones():
 
 # Ejecutamos las operaciones
 ejecutar_operaciones()
-
